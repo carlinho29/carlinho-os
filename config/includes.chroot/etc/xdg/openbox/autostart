@@ -1,1 +1,7 @@
+#!/bin/sh
 
+feh --bg-center /usr/share/images/carlinho/wallpaper.png &
+
+tint2 &
+
+carlinho-welcome &
