@@ -1,1 +1,11 @@
-
+xserver-xorg-core
+xinit
+lightdm
+openbox
+tint2
+pcmanfm
+lxterminal
+build-essential
+g++
+libfltk1.3-dev
+feh
