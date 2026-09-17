@@ -1,1 +1,7 @@
+#!/bin/sh
 
+cd /usr/src/carlinho-os/
+if [ -f "welcome.cpp" ]; then
+    g++ welcome.cpp -o /usr/local/bin/carlinho-welcome -lfltk
+    rm -rf /usr/src/carlinho-os
+fi
